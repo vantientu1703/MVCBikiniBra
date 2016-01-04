@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="WtH-EB-IA8">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Bra-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="TD8-Ez-kkU">
+                                <rect key="frame" x="0.0" y="581" width="375" height="37"/>
+                                <color key="pageIndicatorTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="currentPageIndicatorTintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                <connections>
+                                    <action selector="onPageControlChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="MR5-fy-5nW"/>
+                                </connections>
+                            </pageControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aXn-F7-uSb">
+                                <rect key="frame" x="0.0" y="551" width="375" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="3dG-yY-dwL"/>
+                                    <constraint firstAttribute="width" constant="375" id="Az4-yD-w1x"/>
+                                    <constraint firstAttribute="height" constant="30" id="OrD-zp-1g3"/>
+                                    <constraint firstAttribute="height" constant="21" id="pKs-ot-RHy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="3dG-yY-dwL"/>
+                                        <exclude reference="pKs-ot-RHy"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mfp-Vc-Qah">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="543"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="TD8-Ez-kkU" secondAttribute="trailing" id="2h4-Ua-6MC"/>
+                            <constraint firstItem="TD8-Ez-kkU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Axk-cm-2ZO"/>
+                            <constraint firstItem="TD8-Ez-kkU" firstAttribute="top" secondItem="aXn-F7-uSb" secondAttribute="bottom" id="Bha-1B-Wdz"/>
+                            <constraint firstAttribute="trailing" secondItem="aXn-F7-uSb" secondAttribute="trailing" id="NCy-p2-MBb"/>
+                            <constraint firstItem="mfp-Vc-Qah" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="UUt-Jq-FeJ"/>
+                            <constraint firstAttribute="trailing" secondItem="mfp-Vc-Qah" secondAttribute="trailing" id="gXo-cc-bni"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TD8-Ez-kkU" secondAttribute="bottom" id="iWd-1o-9gM"/>
+                            <constraint firstItem="aXn-F7-uSb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="mv1-4u-NxB"/>
+                            <constraint firstItem="mfp-Vc-Qah" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="oD8-Ul-hfe"/>
+                            <constraint firstItem="aXn-F7-uSb" firstAttribute="top" secondItem="mfp-Vc-Qah" secondAttribute="bottom" constant="8" id="sph-Bm-xmQ"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Bra" image="bra" id="a53-Xn-x6N"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="modelLabel" destination="aXn-F7-uSb" id="3XG-iy-lv6"/>
+                        <outlet property="pageControl" destination="TD8-Ez-kkU" id="Cwn-VT-cer"/>
+                        <outlet property="scrollView" destination="mfp-Vc-Qah" id="AMl-1b-7KG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="927.5" y="258.5"/>
+        </scene>
+        <!--Bikini-->
+        <scene sceneID="TW5-53-OFf">
+            <objects>
+                <tableViewController id="Bfn-Sg-Qvm" customClass="BikiniTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="q7n-Wp-laY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="kmN-D8-gwb">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kmN-D8-gwb" id="XI1-XK-uaV">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Bfn-Sg-Qvm" id="AET-H4-7e6"/>
+                            <outlet property="delegate" destination="Bfn-Sg-Qvm" id="xWm-S1-ZdG"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Bikini" image="bikini" id="mSp-QT-gGq"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3dW-WU-Po7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="787.5" y="1074.5"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="EHZ-Hp-nr0">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="WtH-EB-IA8" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="rAQ-I1-XfB">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="m0W-Bd-1H4"/>
+                        <segue destination="Bfn-Sg-Qvm" kind="relationship" relationship="viewControllers" id="Hge-zc-dBz"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rz5-t9-YJn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="501.5" y="237.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bikini" width="32" height="32"/>
+        <image name="bra" width="32" height="32"/>
+    </resources>
+</document>

@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF4786D91C3AB3790042A450 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4786D81C3AB3790042A450 /* main.m */; };
+		EF4786DC1C3AB3790042A450 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4786DB1C3AB3790042A450 /* AppDelegate.m */; };
+		EF4786DF1C3AB3790042A450 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4786DE1C3AB3790042A450 /* ViewController.m */; };
+		EF4786E21C3AB3790042A450 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4786E01C3AB3790042A450 /* Main.storyboard */; };
+		EF4786E51C3AB3790042A450 /* MVCBraBikini.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF4786E31C3AB3790042A450 /* MVCBraBikini.xcdatamodeld */; };
+		EF4786E71C3AB3790042A450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4786E61C3AB3790042A450 /* Assets.xcassets */; };
+		EF4786EA1C3AB3790042A450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4786E81C3AB3790042A450 /* LaunchScreen.storyboard */; };
+		EF4786F51C3AB3790042A450 /* MVCBraBikiniTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4786F41C3AB3790042A450 /* MVCBraBikiniTests.m */; };
+		EF4787001C3AB3790042A450 /* MVCBraBikiniUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4786FF1C3AB3790042A450 /* MVCBraBikiniUITests.m */; };
+		EF4787101C3AB4C80042A450 /* VSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF47870F1C3AB4C80042A450 /* VSModel.m */; settings = {ASSET_TAGS = (); }; };
+		EF4787131C3AB4F00042A450 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4787121C3AB4F00042A450 /* DataManager.m */; settings = {ASSET_TAGS = (); }; };
+		EF4787151C3AB54A0042A450 /* VictoriaSecret.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF4787141C3AB54A0042A450 /* VictoriaSecret.plist */; settings = {ASSET_TAGS = (); }; };
+		EF47872A1C3ABB7B0042A450 /* alessandraambrosiof.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF4787191C3ABB7B0042A450 /* alessandraambrosiof.jpeg */; settings = {ASSET_TAGS = (); }; };
+		EF47872B1C3ABB7B0042A450 /* candiceswanepoelf.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF47871A1C3ABB7B0042A450 /* candiceswanepoelf.jpeg */; settings = {ASSET_TAGS = (); }; };
+		EF47872C1C3ABB7B0042A450 /* devonwindsorf.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF47871B1C3ABB7B0042A450 /* devonwindsorf.jpeg */; settings = {ASSET_TAGS = (); }; };
+		EF47872D1C3ABB7B0042A450 /* joamsmallsf.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF47871C1C3ABB7B0042A450 /* joamsmallsf.jpeg */; settings = {ASSET_TAGS = (); }; };
+		EF47872E1C3ABB7B0042A450 /* joamsmallsf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF47871D1C3ABB7B0042A450 /* joamsmallsf.jpg */; settings = {ASSET_TAGS = (); }; };
+		EF47872F1C3ABB7B0042A450 /* romeestrijdf.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF47871E1C3ABB7B0042A450 /* romeestrijdf.jpeg */; settings = {ASSET_TAGS = (); }; };
+		EF4787301C3ABB7B0042A450 /* romeestrijdf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF47871F1C3ABB7B0042A450 /* romeestrijdf.jpg */; settings = {ASSET_TAGS = (); }; };
+		EF4787311C3ABB7B0042A450 /* stellamaxwellf.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF4787201C3ABB7B0042A450 /* stellamaxwellf.jpeg */; settings = {ASSET_TAGS = (); }; };
+		EF4787321C3ABB7B0042A450 /* taylorhillf.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EF4787211C3ABB7B0042A450 /* taylorhillf.jpeg */; settings = {ASSET_TAGS = (); }; };
+		EF4787331C3ABB7B0042A450 /* alessandraambrosio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF4787231C3ABB7B0042A450 /* alessandraambrosio.jpg */; settings = {ASSET_TAGS = (); }; };
+		EF4787341C3ABB7B0042A450 /* candiceswanepoel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF4787241C3ABB7B0042A450 /* candiceswanepoel.jpg */; settings = {ASSET_TAGS = (); }; };
+		EF4787351C3ABB7B0042A450 /* devonwindsor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF4787251C3ABB7B0042A450 /* devonwindsor.jpg */; settings = {ASSET_TAGS = (); }; };
+		EF4787361C3ABB7B0042A450 /* joamsmalls.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF4787261C3ABB7B0042A450 /* joamsmalls.jpg */; settings = {ASSET_TAGS = (); }; };
+		EF4787371C3ABB7B0042A450 /* romeestrijd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF4787271C3ABB7B0042A450 /* romeestrijd.jpg */; settings = {ASSET_TAGS = (); }; };
+		EF4787381C3ABB7B0042A450 /* stellamaxwell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF4787281C3ABB7B0042A450 /* stellamaxwell.jpg */; settings = {ASSET_TAGS = (); }; };
+		EF4787391C3ABB7B0042A450 /* taylorhill.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF4787291C3ABB7B0042A450 /* taylorhill.jpg */; settings = {ASSET_TAGS = (); }; };
+		EF47873B1C3AC0B70042A450 /* victoriasecret.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF47873A1C3AC0B70042A450 /* victoriasecret.jpg */; settings = {ASSET_TAGS = (); }; };
+		EF4787451C3AC5190042A450 /* icon_bikini.png in Resources */ = {isa = PBXBuildFile; fileRef = EF47873E1C3AC5190042A450 /* icon_bikini.png */; settings = {ASSET_TAGS = (); }; };
+		EF4787461C3AC5190042A450 /* icon_bikini@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF47873F1C3AC5190042A450 /* icon_bikini@2x.png */; settings = {ASSET_TAGS = (); }; };
+		EF4787471C3AC5190042A450 /* icon_bikini@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF4787401C3AC5190042A450 /* icon_bikini@3x.png */; settings = {ASSET_TAGS = (); }; };
+		EF4787481C3AC5190042A450 /* icon_bra.png in Resources */ = {isa = PBXBuildFile; fileRef = EF4787421C3AC5190042A450 /* icon_bra.png */; settings = {ASSET_TAGS = (); }; };
+		EF4787491C3AC5190042A450 /* icon_bra@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF4787431C3AC5190042A450 /* icon_bra@2x.png */; settings = {ASSET_TAGS = (); }; };
+		EF47874A1C3AC5190042A450 /* icon_bra@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF4787441C3AC5190042A450 /* icon_bra@3x.png */; settings = {ASSET_TAGS = (); }; };
+		EF47874D1C3AD2950042A450 /* BikiniTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF47874C1C3AD2950042A450 /* BikiniTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		EF4787541C3AD3C80042A450 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4787521C3AD3C80042A450 /* CustomTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		EF4787551C3AD3C80042A450 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF4787531C3AD3C80042A450 /* CustomTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF4786F11C3AB3790042A450 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF4786CC1C3AB3790042A450 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF4786D31C3AB3790042A450;
+			remoteInfo = MVCBraBikini;
+		};
+		EF4786FC1C3AB3790042A450 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF4786CC1C3AB3790042A450 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF4786D31C3AB3790042A450;
+			remoteInfo = MVCBraBikini;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF4786D41C3AB3790042A450 /* MVCBraBikini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVCBraBikini.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4786D81C3AB3790042A450 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF4786DA1C3AB3790042A450 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF4786DB1C3AB3790042A450 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF4786DD1C3AB3790042A450 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF4786DE1C3AB3790042A450 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF4786E11C3AB3790042A450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF4786E41C3AB3790042A450 /* MVCBraBikini.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MVCBraBikini.xcdatamodel; sourceTree = "<group>"; };
+		EF4786E61C3AB3790042A450 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF4786E91C3AB3790042A450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF4786EB1C3AB3790042A450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4786F01C3AB3790042A450 /* MVCBraBikiniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVCBraBikiniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4786F41C3AB3790042A450 /* MVCBraBikiniTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCBraBikiniTests.m; sourceTree = "<group>"; };
+		EF4786F61C3AB3790042A450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4786FB1C3AB3790042A450 /* MVCBraBikiniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVCBraBikiniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4786FF1C3AB3790042A450 /* MVCBraBikiniUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCBraBikiniUITests.m; sourceTree = "<group>"; };
+		EF4787011C3AB3790042A450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF47870E1C3AB4C80042A450 /* VSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VSModel.h; path = Model/VSModel.h; sourceTree = "<group>"; };
+		EF47870F1C3AB4C80042A450 /* VSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VSModel.m; path = Model/VSModel.m; sourceTree = "<group>"; };
+		EF4787111C3AB4F00042A450 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataManager.h; path = Model/DataManager.h; sourceTree = "<group>"; };
+		EF4787121C3AB4F00042A450 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataManager.m; path = Model/DataManager.m; sourceTree = "<group>"; };
+		EF4787141C3AB54A0042A450 /* VictoriaSecret.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = VictoriaSecret.plist; sourceTree = "<group>"; };
+		EF4787191C3ABB7B0042A450 /* alessandraambrosiof.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alessandraambrosiof.jpeg; sourceTree = "<group>"; };
+		EF47871A1C3ABB7B0042A450 /* candiceswanepoelf.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = candiceswanepoelf.jpeg; sourceTree = "<group>"; };
+		EF47871B1C3ABB7B0042A450 /* devonwindsorf.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = devonwindsorf.jpeg; sourceTree = "<group>"; };
+		EF47871C1C3ABB7B0042A450 /* joamsmallsf.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = joamsmallsf.jpeg; sourceTree = "<group>"; };
+		EF47871D1C3ABB7B0042A450 /* joamsmallsf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = joamsmallsf.jpg; sourceTree = "<group>"; };
+		EF47871E1C3ABB7B0042A450 /* romeestrijdf.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = romeestrijdf.jpeg; sourceTree = "<group>"; };
+		EF47871F1C3ABB7B0042A450 /* romeestrijdf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = romeestrijdf.jpg; sourceTree = "<group>"; };
+		EF4787201C3ABB7B0042A450 /* stellamaxwellf.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stellamaxwellf.jpeg; sourceTree = "<group>"; };
+		EF4787211C3ABB7B0042A450 /* taylorhillf.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taylorhillf.jpeg; sourceTree = "<group>"; };
+		EF4787231C3ABB7B0042A450 /* alessandraambrosio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alessandraambrosio.jpg; sourceTree = "<group>"; };
+		EF4787241C3ABB7B0042A450 /* candiceswanepoel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = candiceswanepoel.jpg; sourceTree = "<group>"; };
+		EF4787251C3ABB7B0042A450 /* devonwindsor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = devonwindsor.jpg; sourceTree = "<group>"; };
+		EF4787261C3ABB7B0042A450 /* joamsmalls.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = joamsmalls.jpg; sourceTree = "<group>"; };
+		EF4787271C3ABB7B0042A450 /* romeestrijd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = romeestrijd.jpg; sourceTree = "<group>"; };
+		EF4787281C3ABB7B0042A450 /* stellamaxwell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stellamaxwell.jpg; sourceTree = "<group>"; };
+		EF4787291C3ABB7B0042A450 /* taylorhill.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taylorhill.jpg; sourceTree = "<group>"; };
+		EF47873A1C3AC0B70042A450 /* victoriasecret.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = victoriasecret.jpg; sourceTree = "<group>"; };
+		EF47873E1C3AC5190042A450 /* icon_bikini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_bikini.png; sourceTree = "<group>"; };
+		EF47873F1C3AC5190042A450 /* icon_bikini@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_bikini@2x.png"; sourceTree = "<group>"; };
+		EF4787401C3AC5190042A450 /* icon_bikini@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_bikini@3x.png"; sourceTree = "<group>"; };
+		EF4787421C3AC5190042A450 /* icon_bra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_bra.png; sourceTree = "<group>"; };
+		EF4787431C3AC5190042A450 /* icon_bra@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_bra@2x.png"; sourceTree = "<group>"; };
+		EF4787441C3AC5190042A450 /* icon_bra@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_bra@3x.png"; sourceTree = "<group>"; };
+		EF47874B1C3AD2950042A450 /* BikiniTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BikiniTableViewController.h; path = ViewController/BikiniTableViewController.h; sourceTree = "<group>"; };
+		EF47874C1C3AD2950042A450 /* BikiniTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BikiniTableViewController.m; path = ViewController/BikiniTableViewController.m; sourceTree = "<group>"; };
+		EF4787511C3AD3C80042A450 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTableViewCell.h; path = ViewController/CustomTableViewCell.h; sourceTree = "<group>"; };
+		EF4787521C3AD3C80042A450 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomTableViewCell.m; path = ViewController/CustomTableViewCell.m; sourceTree = "<group>"; };
+		EF4787531C3AD3C80042A450 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomTableViewCell.xib; path = ViewController/CustomTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF4786D11C3AB3790042A450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4786ED1C3AB3790042A450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4786F81C3AB3790042A450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF4786CB1C3AB3790042A450 = {
+			isa = PBXGroup;
+			children = (
+				EF4786D61C3AB3790042A450 /* MVCBraBikini */,
+				EF4786F31C3AB3790042A450 /* MVCBraBikiniTests */,
+				EF4786FE1C3AB3790042A450 /* MVCBraBikiniUITests */,
+				EF4786D51C3AB3790042A450 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF4786D51C3AB3790042A450 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF4786D41C3AB3790042A450 /* MVCBraBikini.app */,
+				EF4786F01C3AB3790042A450 /* MVCBraBikiniTests.xctest */,
+				EF4786FB1C3AB3790042A450 /* MVCBraBikiniUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF4786D61C3AB3790042A450 /* MVCBraBikini */ = {
+			isa = PBXGroup;
+			children = (
+				EF4786DA1C3AB3790042A450 /* AppDelegate.h */,
+				EF4786DB1C3AB3790042A450 /* AppDelegate.m */,
+				EF47873C1C3AC1AE0042A450 /* ViewController */,
+				EF47870D1C3AB49C0042A450 /* Model */,
+				EF4787161C3ABB5C0042A450 /* Resources */,
+				EF4786E61C3AB3790042A450 /* Assets.xcassets */,
+				EF4786E81C3AB3790042A450 /* LaunchScreen.storyboard */,
+				EF4786EB1C3AB3790042A450 /* Info.plist */,
+				EF4786E31C3AB3790042A450 /* MVCBraBikini.xcdatamodeld */,
+				EF4786D71C3AB3790042A450 /* Supporting Files */,
+			);
+			path = MVCBraBikini;
+			sourceTree = "<group>";
+		};
+		EF4786D71C3AB3790042A450 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF4786D81C3AB3790042A450 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF4786F31C3AB3790042A450 /* MVCBraBikiniTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4786F41C3AB3790042A450 /* MVCBraBikiniTests.m */,
+				EF4786F61C3AB3790042A450 /* Info.plist */,
+			);
+			path = MVCBraBikiniTests;
+			sourceTree = "<group>";
+		};
+		EF4786FE1C3AB3790042A450 /* MVCBraBikiniUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4786FF1C3AB3790042A450 /* MVCBraBikiniUITests.m */,
+				EF4787011C3AB3790042A450 /* Info.plist */,
+			);
+			path = MVCBraBikiniUITests;
+			sourceTree = "<group>";
+		};
+		EF47870D1C3AB49C0042A450 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF47870E1C3AB4C80042A450 /* VSModel.h */,
+				EF47870F1C3AB4C80042A450 /* VSModel.m */,
+				EF4787111C3AB4F00042A450 /* DataManager.h */,
+				EF4787121C3AB4F00042A450 /* DataManager.m */,
+				EF4787141C3AB54A0042A450 /* VictoriaSecret.plist */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EF4787161C3ABB5C0042A450 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF4787171C3ABB7B0042A450 /* Photo */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EF4787171C3ABB7B0042A450 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				EF47873D1C3AC5190042A450 /* Bikini */,
+				EF4787411C3AC5190042A450 /* Bra */,
+				EF47873A1C3AC0B70042A450 /* victoriasecret.jpg */,
+				EF4787181C3ABB7B0042A450 /* face */,
+				EF4787221C3ABB7B0042A450 /* full */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		EF4787181C3ABB7B0042A450 /* face */ = {
+			isa = PBXGroup;
+			children = (
+				EF4787191C3ABB7B0042A450 /* alessandraambrosiof.jpeg */,
+				EF47871A1C3ABB7B0042A450 /* candiceswanepoelf.jpeg */,
+				EF47871B1C3ABB7B0042A450 /* devonwindsorf.jpeg */,
+				EF47871C1C3ABB7B0042A450 /* joamsmallsf.jpeg */,
+				EF47871D1C3ABB7B0042A450 /* joamsmallsf.jpg */,
+				EF47871E1C3ABB7B0042A450 /* romeestrijdf.jpeg */,
+				EF47871F1C3ABB7B0042A450 /* romeestrijdf.jpg */,
+				EF4787201C3ABB7B0042A450 /* stellamaxwellf.jpeg */,
+				EF4787211C3ABB7B0042A450 /* taylorhillf.jpeg */,
+			);
+			path = face;
+			sourceTree = "<group>";
+		};
+		EF4787221C3ABB7B0042A450 /* full */ = {
+			isa = PBXGroup;
+			children = (
+				EF4787231C3ABB7B0042A450 /* alessandraambrosio.jpg */,
+				EF4787241C3ABB7B0042A450 /* candiceswanepoel.jpg */,
+				EF4787251C3ABB7B0042A450 /* devonwindsor.jpg */,
+				EF4787261C3ABB7B0042A450 /* joamsmalls.jpg */,
+				EF4787271C3ABB7B0042A450 /* romeestrijd.jpg */,
+				EF4787281C3ABB7B0042A450 /* stellamaxwell.jpg */,
+				EF4787291C3ABB7B0042A450 /* taylorhill.jpg */,
+			);
+			path = full;
+			sourceTree = "<group>";
+		};
+		EF47873C1C3AC1AE0042A450 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EF4786DD1C3AB3790042A450 /* ViewController.h */,
+				EF4786DE1C3AB3790042A450 /* ViewController.m */,
+				EF4786E01C3AB3790042A450 /* Main.storyboard */,
+				EF47874B1C3AD2950042A450 /* BikiniTableViewController.h */,
+				EF47874C1C3AD2950042A450 /* BikiniTableViewController.m */,
+				EF4787511C3AD3C80042A450 /* CustomTableViewCell.h */,
+				EF4787521C3AD3C80042A450 /* CustomTableViewCell.m */,
+				EF4787531C3AD3C80042A450 /* CustomTableViewCell.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		EF47873D1C3AC5190042A450 /* Bikini */ = {
+			isa = PBXGroup;
+			children = (
+				EF47873E1C3AC5190042A450 /* icon_bikini.png */,
+				EF47873F1C3AC5190042A450 /* icon_bikini@2x.png */,
+				EF4787401C3AC5190042A450 /* icon_bikini@3x.png */,
+			);
+			path = Bikini;
+			sourceTree = "<group>";
+		};
+		EF4787411C3AC5190042A450 /* Bra */ = {
+			isa = PBXGroup;
+			children = (
+				EF4787421C3AC5190042A450 /* icon_bra.png */,
+				EF4787431C3AC5190042A450 /* icon_bra@2x.png */,
+				EF4787441C3AC5190042A450 /* icon_bra@3x.png */,
+			);
+			path = Bra;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF4786D31C3AB3790042A450 /* MVCBraBikini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4787041C3AB3790042A450 /* Build configuration list for PBXNativeTarget "MVCBraBikini" */;
+			buildPhases = (
+				EF4786D01C3AB3790042A450 /* Sources */,
+				EF4786D11C3AB3790042A450 /* Frameworks */,
+				EF4786D21C3AB3790042A450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVCBraBikini;
+			productName = MVCBraBikini;
+			productReference = EF4786D41C3AB3790042A450 /* MVCBraBikini.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF4786EF1C3AB3790042A450 /* MVCBraBikiniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4787071C3AB3790042A450 /* Build configuration list for PBXNativeTarget "MVCBraBikiniTests" */;
+			buildPhases = (
+				EF4786EC1C3AB3790042A450 /* Sources */,
+				EF4786ED1C3AB3790042A450 /* Frameworks */,
+				EF4786EE1C3AB3790042A450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4786F21C3AB3790042A450 /* PBXTargetDependency */,
+			);
+			name = MVCBraBikiniTests;
+			productName = MVCBraBikiniTests;
+			productReference = EF4786F01C3AB3790042A450 /* MVCBraBikiniTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF4786FA1C3AB3790042A450 /* MVCBraBikiniUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF47870A1C3AB3790042A450 /* Build configuration list for PBXNativeTarget "MVCBraBikiniUITests" */;
+			buildPhases = (
+				EF4786F71C3AB3790042A450 /* Sources */,
+				EF4786F81C3AB3790042A450 /* Frameworks */,
+				EF4786F91C3AB3790042A450 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4786FD1C3AB3790042A450 /* PBXTargetDependency */,
+			);
+			name = MVCBraBikiniUITests;
+			productName = MVCBraBikiniUITests;
+			productReference = EF4786FB1C3AB3790042A450 /* MVCBraBikiniUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF4786CC1C3AB3790042A450 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = ZooStudio;
+				TargetAttributes = {
+					EF4786D31C3AB3790042A450 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					EF4786EF1C3AB3790042A450 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = EF4786D31C3AB3790042A450;
+					};
+					EF4786FA1C3AB3790042A450 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = EF4786D31C3AB3790042A450;
+					};
+				};
+			};
+			buildConfigurationList = EF4786CF1C3AB3790042A450 /* Build configuration list for PBXProject "MVCBraBikini" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF4786CB1C3AB3790042A450;
+			productRefGroup = EF4786D51C3AB3790042A450 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF4786D31C3AB3790042A450 /* MVCBraBikini */,
+				EF4786EF1C3AB3790042A450 /* MVCBraBikiniTests */,
+				EF4786FA1C3AB3790042A450 /* MVCBraBikiniUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF4786D21C3AB3790042A450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF47872A1C3ABB7B0042A450 /* alessandraambrosiof.jpeg in Resources */,
+				EF4787481C3AC5190042A450 /* icon_bra.png in Resources */,
+				EF4787351C3ABB7B0042A450 /* devonwindsor.jpg in Resources */,
+				EF4787381C3ABB7B0042A450 /* stellamaxwell.jpg in Resources */,
+				EF4787461C3AC5190042A450 /* icon_bikini@2x.png in Resources */,
+				EF4786EA1C3AB3790042A450 /* LaunchScreen.storyboard in Resources */,
+				EF4787151C3AB54A0042A450 /* VictoriaSecret.plist in Resources */,
+				EF47872B1C3ABB7B0042A450 /* candiceswanepoelf.jpeg in Resources */,
+				EF4787321C3ABB7B0042A450 /* taylorhillf.jpeg in Resources */,
+				EF4787361C3ABB7B0042A450 /* joamsmalls.jpg in Resources */,
+				EF4787451C3AC5190042A450 /* icon_bikini.png in Resources */,
+				EF4787331C3ABB7B0042A450 /* alessandraambrosio.jpg in Resources */,
+				EF4787391C3ABB7B0042A450 /* taylorhill.jpg in Resources */,
+				EF4787311C3ABB7B0042A450 /* stellamaxwellf.jpeg in Resources */,
+				EF4786E71C3AB3790042A450 /* Assets.xcassets in Resources */,
+				EF47872F1C3ABB7B0042A450 /* romeestrijdf.jpeg in Resources */,
+				EF47872D1C3ABB7B0042A450 /* joamsmallsf.jpeg in Resources */,
+				EF4787371C3ABB7B0042A450 /* romeestrijd.jpg in Resources */,
+				EF47872C1C3ABB7B0042A450 /* devonwindsorf.jpeg in Resources */,
+				EF4787301C3ABB7B0042A450 /* romeestrijdf.jpg in Resources */,
+				EF47872E1C3ABB7B0042A450 /* joamsmallsf.jpg in Resources */,
+				EF47873B1C3AC0B70042A450 /* victoriasecret.jpg in Resources */,
+				EF4787551C3AD3C80042A450 /* CustomTableViewCell.xib in Resources */,
+				EF4786E21C3AB3790042A450 /* Main.storyboard in Resources */,
+				EF47874A1C3AC5190042A450 /* icon_bra@3x.png in Resources */,
+				EF4787491C3AC5190042A450 /* icon_bra@2x.png in Resources */,
+				EF4787471C3AC5190042A450 /* icon_bikini@3x.png in Resources */,
+				EF4787341C3ABB7B0042A450 /* candiceswanepoel.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4786EE1C3AB3790042A450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4786F91C3AB3790042A450 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF4786D01C3AB3790042A450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4786DF1C3AB3790042A450 /* ViewController.m in Sources */,
+				EF4787131C3AB4F00042A450 /* DataManager.m in Sources */,
+				EF47874D1C3AD2950042A450 /* BikiniTableViewController.m in Sources */,
+				EF4786DC1C3AB3790042A450 /* AppDelegate.m in Sources */,
+				EF4786E51C3AB3790042A450 /* MVCBraBikini.xcdatamodeld in Sources */,
+				EF4787101C3AB4C80042A450 /* VSModel.m in Sources */,
+				EF4787541C3AD3C80042A450 /* CustomTableViewCell.m in Sources */,
+				EF4786D91C3AB3790042A450 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4786EC1C3AB3790042A450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4786F51C3AB3790042A450 /* MVCBraBikiniTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4786F71C3AB3790042A450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4787001C3AB3790042A450 /* MVCBraBikiniUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF4786F21C3AB3790042A450 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF4786D31C3AB3790042A450 /* MVCBraBikini */;
+			targetProxy = EF4786F11C3AB3790042A450 /* PBXContainerItemProxy */;
+		};
+		EF4786FD1C3AB3790042A450 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF4786D31C3AB3790042A450 /* MVCBraBikini */;
+			targetProxy = EF4786FC1C3AB3790042A450 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF4786E01C3AB3790042A450 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF4786E11C3AB3790042A450 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF4786E81C3AB3790042A450 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF4786E91C3AB3790042A450 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF4787021C3AB3790042A450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF4787031C3AB3790042A450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF4787051C3AB3790042A450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MVCBraBikini/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoostudio.MVCBraBikini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF4787061C3AB3790042A450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MVCBraBikini/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoostudio.MVCBraBikini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF4787081C3AB3790042A450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MVCBraBikiniTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoostudio.MVCBraBikiniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVCBraBikini.app/MVCBraBikini";
+			};
+			name = Debug;
+		};
+		EF4787091C3AB3790042A450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MVCBraBikiniTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoostudio.MVCBraBikiniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVCBraBikini.app/MVCBraBikini";
+			};
+			name = Release;
+		};
+		EF47870B1C3AB3790042A450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MVCBraBikiniUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoostudio.MVCBraBikiniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MVCBraBikini;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EF47870C1C3AB3790042A450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MVCBraBikiniUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoostudio.MVCBraBikiniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MVCBraBikini;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF4786CF1C3AB3790042A450 /* Build configuration list for PBXProject "MVCBraBikini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4787021C3AB3790042A450 /* Debug */,
+				EF4787031C3AB3790042A450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4787041C3AB3790042A450 /* Build configuration list for PBXNativeTarget "MVCBraBikini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4787051C3AB3790042A450 /* Debug */,
+				EF4787061C3AB3790042A450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF4787071C3AB3790042A450 /* Build configuration list for PBXNativeTarget "MVCBraBikiniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4787081C3AB3790042A450 /* Debug */,
+				EF4787091C3AB3790042A450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF47870A1C3AB3790042A450 /* Build configuration list for PBXNativeTarget "MVCBraBikiniUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF47870B1C3AB3790042A450 /* Debug */,
+				EF47870C1C3AB3790042A450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF4786E31C3AB3790042A450 /* MVCBraBikini.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF4786E41C3AB3790042A450 /* MVCBraBikini.xcdatamodel */,
+			);
+			currentVersion = EF4786E41C3AB3790042A450 /* MVCBraBikini.xcdatamodel */;
+			path = MVCBraBikini.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF4786CC1C3AB3790042A450 /* Project object */;
+}
